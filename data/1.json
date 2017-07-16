@@ -1,0 +1,1627 @@
+[
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": "SDE.垃圾掩埋場位置圖_1041218_Layer.0",
+        "Name": "八里垃圾掩埋場(三期+三期後續)",
+        "資料統計時": "2015\/01\/01-2015\/06\/30",
+        "Planned_Ca": "5890000",
+        "Seq": "2",
+        "Remaining_": "968005",
+        "Lon": "121.37164",
+        "County": "新北市",
+        "Address": "八里區罟子村282-1地號等210筆",
+        "Lat": "25.12605",
+        "LandfillNa": "八里垃圾掩埋場(三期+三期後續)",
+        "Township": "八里區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.37164,
+          25.12605,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": "SDE.垃圾掩埋場位置圖_1041218_Layer.1",
+        "Name": "三星鄉衛生掩埋場",
+        "資料統計時": "2015\/01\/01-2015\/06\/30",
+        "Planned_Ca": "105000",
+        "Seq": "3",
+        "Remaining_": "11970",
+        "Lon": "121.6742",
+        "County": "宜蘭縣",
+        "Address": "紅柴林段八王圍小段197-6號",
+        "Lat": "24.68895",
+        "LandfillNa": "三星鄉衛生掩埋場",
+        "Township": "三星鄉"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.6742,
+          24.68895,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": "SDE.垃圾掩埋場位置圖_1041218_Layer.2",
+        "Name": "五結鄉垃圾衛生掩埋場",
+        "資料統計時": "2015\/01\/01-2015\/06\/30",
+        "Planned_Ca": "260600",
+        "Seq": "4",
+        "Remaining_": "0",
+        "Lon": "121.84132",
+        "County": "宜蘭縣",
+        "Address": "五結鄉下清水段埤仔尾小段189-1地號",
+        "Lat": "24.64657",
+        "LandfillNa": "五結鄉垃圾衛生掩埋場",
+        "Township": "五結鄉"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.84132,
+          24.64657,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": "SDE.垃圾掩埋場位置圖_1041218_Layer.3",
+        "Name": "蘇澳區域性衛生掩埋場",
+        "資料統計時": "2015\/01\/01-2015\/06\/30",
+        "Planned_Ca": "227500",
+        "Seq": "5",
+        "Remaining_": "13996",
+        "Lon": "121.84321",
+        "County": "宜蘭縣",
+        "Address": "蘇澳鎮蘇濱路3段990號",
+        "Lat": "24.64074",
+        "LandfillNa": "蘇澳區域性衛生掩埋場",
+        "Township": "蘇澳鎮"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.84321,
+          24.64074,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": "SDE.垃圾掩埋場位置圖_1041218_Layer.4",
+        "Name": "秀林鄉陶樸閣一般廢棄物掩埋場",
+        "資料統計時": "2015\/01\/01-2015\/06\/30",
+        "Planned_Ca": "338800",
+        "Seq": "6",
+        "Remaining_": "42219",
+        "Lon": "121.6461",
+        "County": "花蓮縣",
+        "Address": "秀林鄉秀林村3鄰民有8號",
+        "Lat": "24.13247",
+        "LandfillNa": "秀林鄉陶樸閣一般廢棄物掩埋場",
+        "Township": "秀林鄉"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.6461,
+          24.13247,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": "SDE.垃圾掩埋場位置圖_1041218_Layer.5",
+        "Name": "富里鄉垃圾衛生掩埋場",
+        "資料統計時": "2015\/01\/01-2015\/06\/30",
+        "Planned_Ca": "9390",
+        "Seq": "7",
+        "Remaining_": "1073",
+        "Lon": "121.274617",
+        "County": "花蓮縣",
+        "Address": "富里鄉羅山村東湖12-1",
+        "Lat": "23.206108",
+        "LandfillNa": "富里鄉垃圾衛生掩埋場",
+        "Township": "富里鄉"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.274617,
+          23.206108,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": "SDE.垃圾掩埋場位置圖_1041218_Layer.6",
+        "Name": "光復鄉區域垃圾衛生掩埋場",
+        "資料統計時": "2015\/01\/01-2015\/06\/30",
+        "Planned_Ca": "106000",
+        "Seq": "8",
+        "Remaining_": "21844",
+        "Lon": "121.43719",
+        "County": "花蓮縣",
+        "Address": "光復鄉大坪村佛祖街386號",
+        "Lat": "23.67799",
+        "LandfillNa": "光復鄉區域垃圾衛生掩埋場",
+        "Township": "光復鄉"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.43719,
+          23.67799,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": "SDE.垃圾掩埋場位置圖_1041218_Layer.7",
+        "Name": "壽豐鄉垃圾衛生掩埋場",
+        "資料統計時": "2015\/01\/01-2015\/06\/30",
+        "Planned_Ca": "100690",
+        "Seq": "9",
+        "Remaining_": "13",
+        "Lon": "121.51076",
+        "County": "花蓮縣",
+        "Address": "壽豐鄉豐坪村豐坪路1段16巷10號",
+        "Lat": "23.81971",
+        "LandfillNa": "壽豐鄉垃圾衛生掩埋場",
+        "Township": "壽豐鄉"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51076,
+          23.81971,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": "SDE.垃圾掩埋場位置圖_1041218_Layer.8",
+        "Name": "瑞穗鄉一般廢棄物掩埋場",
+        "資料統計時": "2015\/01\/01-2015\/06\/30",
+        "Planned_Ca": "75000",
+        "Seq": "10",
+        "Remaining_": "2979",
+        "Lon": "121.37801",
+        "County": "花蓮縣",
+        "Address": "瑞穗鄉瑞北村瑞穗段1-66地號",
+        "Lat": "23.55177",
+        "LandfillNa": "瑞穗鄉一般廢棄物掩埋場",
+        "Township": "瑞穗鄉"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.37801,
+          23.55177,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": "SDE.垃圾掩埋場位置圖_1041218_Layer.9",
+        "Name": "玉里鎮長良垃圾衛生掩埋場",
+        "資料統計時": "2015\/01\/01-2015\/06\/30",
+        "Planned_Ca": "185000",
+        "Seq": "11",
+        "Remaining_": "15686",
+        "Lon": "121.32642",
+        "County": "花蓮縣",
+        "Address": "玉里鎮永安段2987-0004地號",
+        "Lat": "23.2993",
+        "LandfillNa": "玉里鎮長良垃圾衛生掩埋場",
+        "Township": "玉里鎮"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.32642,
+          23.2993,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": "SDE.垃圾掩埋場位置圖_1041218_Layer.10",
+        "Name": "新城鄉一般廢棄物掩埋場",
+        "資料統計時": "2015\/01\/01-2015\/06\/30",
+        "Planned_Ca": "20000",
+        "Seq": "12",
+        "Remaining_": "18319",
+        "Lon": "121.61716",
+        "County": "花蓮縣",
+        "Address": "新城鄉大漢村德莊10-100號",
+        "Lat": "24.04833",
+        "LandfillNa": "新城鄉一般廢棄物掩埋場",
+        "Township": "新城鄉"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.61716,
+          24.04833,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": "SDE.垃圾掩埋場位置圖_1041218_Layer.11",
+        "Name": "中區區域性垃圾衛生掩埋場",
+        "資料統計時": "2015\/01\/01-2015\/06\/30",
+        "Planned_Ca": "530000",
+        "Seq": "13",
+        "Remaining_": "470434",
+        "Lon": "121.48903",
+        "County": "花蓮縣",
+        "Address": "花蓮縣鳳林鎮榮開路70號",
+        "Lat": "23.77165",
+        "LandfillNa": "中區區域性垃圾衛生掩埋場",
+        "Township": "鳳林鎮"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.48903,
+          23.77165,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": "SDE.垃圾掩埋場位置圖_1041218_Layer.12",
+        "Name": "桃園區會稽垃圾衛生掩埋場",
+        "資料統計時": "2015\/01\/01-2015\/06\/30",
+        "Planned_Ca": "745468",
+        "Seq": "14",
+        "Remaining_": "1784",
+        "Lon": "121.322881",
+        "County": "桃園市",
+        "Address": "桃園區三聖段15、16地號",
+        "Lat": "25.0195",
+        "LandfillNa": "桃園區會稽垃圾衛生掩埋場",
+        "Township": "桃園區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.322881,
+          25.0195,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": "SDE.垃圾掩埋場位置圖_1041218_Layer.13",
+        "Name": "中壢區忠福垃圾衛生掩埋場",
+        "資料統計時": "2015\/01\/01-2015\/06\/30",
+        "Planned_Ca": "252220",
+        "Seq": "15",
+        "Remaining_": "32590",
+        "Lon": "121.23416",
+        "County": "桃園市",
+        "Address": "中壢區萬能段798等30筆農地",
+        "Lat": "24.98777",
+        "LandfillNa": "中壢區忠福垃圾衛生掩埋場",
+        "Township": "中壢區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.23416,
+          24.98777,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": "SDE.垃圾掩埋場位置圖_1041218_Layer.14",
+        "Name": "浸水衛生掩埋場",
+        "資料統計時": "2015\/01\/01-2015\/06\/30",
+        "Planned_Ca": "2400000",
+        "Seq": "16",
+        "Remaining_": "327446",
+        "Lon": "120.91818",
+        "County": "新竹市",
+        "Address": "新竹市浸水北街450號",
+        "Lat": "24.80543",
+        "LandfillNa": "浸水衛生掩埋場",
+        "Township": "香山區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.91818,
+          24.80543,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": "SDE.垃圾掩埋場位置圖_1041218_Layer.15",
+        "Name": "獅潭鄉衛生掩埋場",
+        "資料統計時": "2015\/01\/01-2015\/06\/30",
+        "Planned_Ca": "50000",
+        "Seq": "17",
+        "Remaining_": "428",
+        "Lon": "120.75387",
+        "County": "苗栗縣",
+        "Address": "獅潭鄉獅潭段洽坑小段30-93地號",
+        "Lat": "24.50223",
+        "LandfillNa": "獅潭鄉衛生掩埋場",
+        "Township": "獅潭鄉"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.75387,
+          24.50223,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": "SDE.垃圾掩埋場位置圖_1041218_Layer.16",
+        "Name": "造橋鄉垃圾衛生掩埋場",
+        "資料統計時": "2015\/01\/01-2015\/06\/30",
+        "Planned_Ca": "80000",
+        "Seq": "18",
+        "Remaining_": "34989",
+        "Lon": "120.87757",
+        "County": "苗栗縣",
+        "Address": "造橋鄉造橋段1434-4、1434-10~16、561-1、561-2、562、563、564地號",
+        "Lat": "24.61442",
+        "LandfillNa": "造橋鄉垃圾衛生掩埋場",
+        "Township": "造橋鄉"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.87757,
+          24.61442,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": "SDE.垃圾掩埋場位置圖_1041218_Layer.17",
+        "Name": "竹南鎮垃圾衛生掩埋場",
+        "資料統計時": "2015\/01\/01-2015\/06\/30",
+        "Planned_Ca": "175800",
+        "Seq": "19",
+        "Remaining_": "0",
+        "Lon": "120.839457",
+        "County": "苗栗縣",
+        "Address": "竹南鎮海口里16鄰保安林25-42號",
+        "Lat": "24.669745",
+        "LandfillNa": "竹南鎮垃圾衛生掩埋場",
+        "Township": "竹南鎮"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.839457,
+          24.669745,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": "SDE.垃圾掩埋場位置圖_1041218_Layer.18",
+        "Name": "頭份鎮區域性一般廢棄物處理場",
+        "資料統計時": "2015\/01\/01-2015\/06\/30",
+        "Planned_Ca": "728500",
+        "Seq": "20",
+        "Remaining_": "70447",
+        "Lon": "120.88922",
+        "County": "苗栗縣",
+        "Address": "頭份鎮廣興里尖山下段927及928地號",
+        "Lat": "24.66351",
+        "LandfillNa": "頭份鎮區域性一般廢棄物處理場",
+        "Township": "頭份鎮"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.88922,
+          24.66351,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": "SDE.垃圾掩埋場位置圖_1041218_Layer.19",
+        "Name": "西湖鄉衛生掩埋場",
+        "資料統計時": "2015\/01\/01-2015\/06\/30",
+        "Planned_Ca": "81300",
+        "Seq": "21",
+        "Remaining_": "17380",
+        "Lon": "120.733726",
+        "County": "苗栗縣",
+        "Address": "西湖鄉二湖段596-14地號",
+        "Lat": "24.566744",
+        "LandfillNa": "西湖鄉衛生掩埋場",
+        "Township": "西湖鄉"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.733726,
+          24.566744,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": "SDE.垃圾掩埋場位置圖_1041218_Layer.20",
+        "Name": "三灣鄉垃圾衛生掩埋場",
+        "資料統計時": "2015\/01\/01-2015\/06\/30",
+        "Planned_Ca": "43500",
+        "Seq": "22",
+        "Remaining_": "7198",
+        "Lon": "120.94818",
+        "County": "苗栗縣",
+        "Address": "三灣鄉大河底段371等15筆地號",
+        "Lat": "24.62635",
+        "LandfillNa": "三灣鄉垃圾衛生掩埋場",
+        "Township": "三灣鄉"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.94818,
+          24.62635,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": "SDE.垃圾掩埋場位置圖_1041218_Layer.21",
+        "Name": "頭屋鄉垃圾衛生掩埋場",
+        "資料統計時": "2015\/01\/01-2015\/06\/30",
+        "Planned_Ca": "105000",
+        "Seq": "23",
+        "Remaining_": "44977",
+        "Lon": "120.89295",
+        "County": "苗栗縣",
+        "Address": "頭屋鄉仁隆段848地號等9筆",
+        "Lat": "24.56857",
+        "LandfillNa": "頭屋鄉垃圾衛生掩埋場",
+        "Township": "頭屋鄉"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.89295,
+          24.56857,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": "SDE.垃圾掩埋場位置圖_1041218_Layer.22",
+        "Name": "神岡區溪州衛生掩埋場",
+        "資料統計時": "2015\/01\/01-2015\/06\/30",
+        "Planned_Ca": "540000",
+        "Seq": "24",
+        "Remaining_": "56437",
+        "Lon": "120.674459",
+        "County": "臺中市",
+        "Address": "神岡區下溪洲後壁眉小段1126之1及圳堵段919號等46筆",
+        "Lat": "24.282189",
+        "LandfillNa": "神岡區溪州衛生掩埋場",
+        "Township": "神岡區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.674459,
+          24.282189,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": "SDE.垃圾掩埋場位置圖_1041218_Layer.23",
+        "Name": "后里區域性衛生掩埋場",
+        "資料統計時": "2015\/01\/01-2015\/06\/30",
+        "Planned_Ca": "201230",
+        "Seq": "25",
+        "Remaining_": "147112",
+        "Lon": "120.73601",
+        "County": "臺中市",
+        "Address": "后里區牛稠坑段七星小段57-1、58-1、59-3、59-4地號",
+        "Lat": "24.286787",
+        "LandfillNa": "后里區域性衛生掩埋場",
+        "Township": "后里區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.73601,
+          24.286787,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": "SDE.垃圾掩埋場位置圖_1041218_Layer.24",
+        "Name": "南屯區文山里垃圾衛生掩埋場",
+        "資料統計時": "2015\/01\/01-2015\/06\/30",
+        "Planned_Ca": "3746000",
+        "Seq": "26",
+        "Remaining_": "17714",
+        "Lon": "120.59479",
+        "County": "臺中市",
+        "Address": "臺中市南屯區台安段第17、18、21~31、34及59等15筆地號",
+        "Lat": "24.1559",
+        "LandfillNa": "南屯區文山里垃圾衛生掩埋場",
+        "Township": "南屯區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.59479,
+          24.1559,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": "SDE.垃圾掩埋場位置圖_1041218_Layer.25",
+        "Name": "和美鎮區域性衛生掩埋場",
+        "資料統計時": "2015\/01\/01-2015\/06\/30",
+        "Planned_Ca": "68425",
+        "Seq": "27",
+        "Remaining_": "28603",
+        "Lon": "120.525752",
+        "County": "彰化縣",
+        "Address": "和美鎮塗厝厝段嘉寶潭小段334-18等地號",
+        "Lat": "24.128537",
+        "LandfillNa": "和美鎮區域性衛生掩埋場",
+        "Township": "和美鎮"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.525752,
+          24.128537,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": "SDE.垃圾掩埋場位置圖_1041218_Layer.26",
+        "Name": "南投市衛生掩埋場",
+        "資料統計時": "2015\/01\/01-2015\/06\/30",
+        "Planned_Ca": "163000",
+        "Seq": "28",
+        "Remaining_": "161447",
+        "Lon": "120.66837",
+        "County": "南投縣",
+        "Address": "南投市嶺興路36號",
+        "Lat": "23.90615",
+        "LandfillNa": "南投市衛生掩埋場",
+        "Township": "南投市"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.66837,
+          23.90615,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": "SDE.垃圾掩埋場位置圖_1041218_Layer.27",
+        "Name": "四湖鄉衛生掩埋場",
+        "資料統計時": "2015\/01\/01-2015\/06\/30",
+        "Planned_Ca": "126195",
+        "Seq": "29",
+        "Remaining_": "42234",
+        "Lon": "120.16412",
+        "County": "雲林縣",
+        "Address": "四湖鄉林厝寮段4694號",
+        "Lat": "23.68075",
+        "LandfillNa": "四湖鄉衛生掩埋場",
+        "Township": "四湖鄉"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.16412,
+          23.68075,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": "SDE.垃圾掩埋場位置圖_1041218_Layer.28",
+        "Name": "褒忠鄉衛生掩埋場",
+        "資料統計時": "2015\/01\/01-2015\/06\/30",
+        "Planned_Ca": "121700",
+        "Seq": "30",
+        "Remaining_": "26832",
+        "Lon": "120.31288",
+        "County": "雲林縣",
+        "Address": "褒忠鄉有才村北興46號",
+        "Lat": "23.7429",
+        "LandfillNa": "褒忠鄉衛生掩埋場",
+        "Township": "褒忠鄉"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.31288,
+          23.7429,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": "SDE.垃圾掩埋場位置圖_1041218_Layer.29",
+        "Name": "東勢鄉衛生掩埋場",
+        "資料統計時": "2015\/01\/01-2015\/06\/30",
+        "Planned_Ca": "95500",
+        "Seq": "31",
+        "Remaining_": "0",
+        "Lon": "120.28339",
+        "County": "雲林縣",
+        "Address": "東勢鄉同安厝段694地號",
+        "Lat": "23.733779",
+        "LandfillNa": "東勢鄉衛生掩埋場",
+        "Township": "東勢鄉"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.28339,
+          23.733779,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": "SDE.垃圾掩埋場位置圖_1041218_Layer.30",
+        "Name": "崙背鄉衛生掩埋場",
+        "資料統計時": "2015\/01\/01-2015\/06\/30",
+        "Planned_Ca": "88000",
+        "Seq": "32",
+        "Remaining_": "0",
+        "Lon": "120.31911",
+        "County": "雲林縣",
+        "Address": "崙背鄉貓兒干段1-8地號",
+        "Lat": "23.81171",
+        "LandfillNa": "崙背鄉衛生掩埋場",
+        "Township": "崙背鄉"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.31911,
+          23.81171,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": "SDE.垃圾掩埋場位置圖_1041218_Layer.31",
+        "Name": "二崙鄉衛生掩埋場",
+        "資料統計時": "2015\/01\/01-2015\/06\/30",
+        "Planned_Ca": "150000",
+        "Seq": "33",
+        "Remaining_": "0",
+        "Lon": "120.3745",
+        "County": "雲林縣",
+        "Address": "二崙鄉港後村太平路60-10號",
+        "Lat": "23.81722",
+        "LandfillNa": "二崙鄉衛生掩埋場",
+        "Township": "二崙鄉"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.3745,
+          23.81722,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": "SDE.垃圾掩埋場位置圖_1041218_Layer.32",
+        "Name": "莿桐鄉衛生掩埋場",
+        "資料統計時": "2015\/01\/01-2015\/06\/30",
+        "Planned_Ca": "220945",
+        "Seq": "34",
+        "Remaining_": "82895",
+        "Lon": "120.53556",
+        "County": "雲林縣",
+        "Address": "莿桐鄉麻園段11-3地號",
+        "Lat": "23.78619",
+        "LandfillNa": "莿桐鄉衛生掩埋場",
+        "Township": "莿桐鄉"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.53556,
+          23.78619,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": "SDE.垃圾掩埋場位置圖_1041218_Layer.33",
+        "Name": "土庫鎮衛生掩埋場",
+        "資料統計時": "2015\/01\/01-2015\/06\/30",
+        "Planned_Ca": "247252",
+        "Seq": "35",
+        "Remaining_": "207",
+        "Lon": "120.35971",
+        "County": "雲林縣",
+        "Address": "土庫鎮新南段1128-1地號",
+        "Lat": "23.72472",
+        "LandfillNa": "土庫鎮衛生掩埋場",
+        "Township": "土庫鎮"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.35971,
+          23.72472,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": "SDE.垃圾掩埋場位置圖_1041218_Layer.34",
+        "Name": "斗南鎮衛生掩埋場",
+        "資料統計時": "2015\/01\/01-2015\/06\/30",
+        "Planned_Ca": "68189",
+        "Seq": "36",
+        "Remaining_": "0",
+        "Lon": "120.49126",
+        "County": "雲林縣",
+        "Address": "斗南鎮東明段415地號等7筆",
+        "Lat": "23.67806",
+        "LandfillNa": "斗南鎮衛生掩埋場",
+        "Township": "斗南鎮"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.49126,
+          23.67806,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": "SDE.垃圾掩埋場位置圖_1041218_Layer.35",
+        "Name": "民雄鄉垃圾衛生掩埋場",
+        "資料統計時": "2015\/01\/01-2015\/06\/30",
+        "Planned_Ca": "317875",
+        "Seq": "37",
+        "Remaining_": "13580",
+        "Lon": "120.50683",
+        "County": "嘉義縣",
+        "Address": "民雄鄉後山仔段3地號等12筆",
+        "Lat": "23.5507",
+        "LandfillNa": "民雄鄉垃圾衛生掩埋場",
+        "Township": "民雄鄉"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.50683,
+          23.5507,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": "SDE.垃圾掩埋場位置圖_1041218_Layer.36",
+        "Name": "新港鄉區域性衛生掩埋場",
+        "資料統計時": "2015\/01\/01-2015\/06\/30",
+        "Planned_Ca": "150000",
+        "Seq": "38",
+        "Remaining_": "1329",
+        "Lon": "120.31173",
+        "County": "嘉義縣",
+        "Address": "新港鄉潭大村大客段15-1號",
+        "Lat": "23.53226",
+        "LandfillNa": "新港鄉區域性衛生掩埋場",
+        "Township": "新港鄉"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.31173,
+          23.53226,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": "SDE.垃圾掩埋場位置圖_1041218_Layer.37",
+        "Name": "大林鎮垃圾衛生掩埋場",
+        "資料統計時": "2015\/01\/01-2015\/06\/30",
+        "Planned_Ca": "75000",
+        "Seq": "39",
+        "Remaining_": "24646",
+        "Lon": "120.51432",
+        "County": "嘉義縣",
+        "Address": "大林鎮林頭段16-66、16-67、16-68地號",
+        "Lat": "23.61353",
+        "LandfillNa": "大林鎮垃圾衛生掩埋場",
+        "Township": "大林鎮"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.51432,
+          23.61353,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": "SDE.垃圾掩埋場位置圖_1041218_Layer.38",
+        "Name": "安定區域性衛生掩埋場",
+        "資料統計時": "2015\/01\/01-2015\/06\/30",
+        "Planned_Ca": "290000",
+        "Seq": "40",
+        "Remaining_": "13938",
+        "Lon": "120.2597",
+        "County": "臺南市",
+        "Address": "安定區六塊寮段258-1地號等8筆",
+        "Lat": "23.11346",
+        "LandfillNa": "安定區域性衛生掩埋場",
+        "Township": "安定區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.2597,
+          23.11346,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": "SDE.垃圾掩埋場位置圖_1041218_Layer.39",
+        "Name": "城西衛生掩埋場(三期+最終處置)",
+        "資料統計時": "2015\/01\/01-2015\/06\/30",
+        "Planned_Ca": "655000",
+        "Seq": "41",
+        "Remaining_": "286558",
+        "Lon": "120.07709",
+        "County": "臺南市",
+        "Address": "台南市安南區城西段1029地號",
+        "Lat": "23.04238",
+        "LandfillNa": "城西衛生掩埋場(三期+最終處置)",
+        "Township": "安南區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.07709,
+          23.04238,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": "SDE.垃圾掩埋場位置圖_1041218_Layer.40",
+        "Name": "燕巢區域性垃圾衛生掩埋場",
+        "資料統計時": "2015\/01\/01-2015\/06\/30",
+        "Planned_Ca": "694066",
+        "Seq": "42",
+        "Remaining_": "318454",
+        "Lon": "120.37257",
+        "County": "高雄市",
+        "Address": "燕巢區深水里湖內仔段46-1地號",
+        "Lat": "22.78303",
+        "LandfillNa": "燕巢區域性垃圾衛生掩埋場",
+        "Township": "燕巢區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.37257,
+          22.78303,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": "SDE.垃圾掩埋場位置圖_1041218_Layer.41",
+        "Name": "大寮區垃圾衛生掩埋場",
+        "資料統計時": "2015\/01\/01-2015\/06\/30",
+        "Planned_Ca": "1044042",
+        "Seq": "43",
+        "Remaining_": "175631",
+        "Lon": "120.38308",
+        "County": "高雄市",
+        "Address": "大寮區水源段1196、1191、1193、1194、1195、1217號",
+        "Lat": "22.6076",
+        "LandfillNa": "大寮區垃圾衛生掩埋場",
+        "Township": "大寮區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.38308,
+          22.6076,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": "SDE.垃圾掩埋場位置圖_1041218_Layer.42",
+        "Name": "路竹區域性一般廢棄物衛生掩埋場",
+        "資料統計時": "2015\/01\/01-2015\/06\/30",
+        "Planned_Ca": "168223",
+        "Seq": "44",
+        "Remaining_": "136212",
+        "Lon": "120.28381",
+        "County": "高雄市",
+        "Address": "路竹區營後段2、2-1、2-2、3、5~13、19等14筆地號",
+        "Lat": "22.89158",
+        "LandfillNa": "路竹區域性一般廢棄物衛生掩埋場",
+        "Township": "路竹區"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.28381,
+          22.89158,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": "SDE.垃圾掩埋場位置圖_1041218_Layer.43",
+        "Name": "枋寮區域性衛生掩埋場(二期+三期)",
+        "資料統計時": "2015\/01\/01-2015\/06\/30",
+        "Planned_Ca": "663000",
+        "Seq": "45",
+        "Remaining_": "29303",
+        "Lon": "120.59893",
+        "County": "屏東縣",
+        "Address": "枋寮鄉玉泉村農場路130號",
+        "Lat": "22.44992",
+        "LandfillNa": "枋寮區域性衛生掩埋場(二期+三期)",
+        "Township": "枋寮鄉"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.59893,
+          22.44992,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": "SDE.垃圾掩埋場位置圖_1041218_Layer.44",
+        "Name": "恆春區域性垃圾衛生掩埋場",
+        "資料統計時": "2015\/01\/01-2015\/06\/30",
+        "Planned_Ca": "669039",
+        "Seq": "46",
+        "Remaining_": "137232",
+        "Lon": "120.76346",
+        "County": "屏東縣",
+        "Address": "恆春鎮山腳里恆東路61號",
+        "Lat": "22.00357",
+        "LandfillNa": "恆春區域性垃圾衛生掩埋場",
+        "Township": "恆春鎮"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.76346,
+          22.00357,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": "SDE.垃圾掩埋場位置圖_1041218_Layer.45",
+        "Name": "金峰鄉區域性垃圾衛生掩埋場",
+        "資料統計時": "2015\/01\/01-2015\/06\/30",
+        "Planned_Ca": "70339",
+        "Seq": "47",
+        "Remaining_": "21893",
+        "Lon": "120.9691",
+        "County": "臺東縣",
+        "Address": "金峰鄉嘉蘭段29-5地號",
+        "Lat": "22.60848",
+        "LandfillNa": "金峰鄉區域性垃圾衛生掩埋場",
+        "Township": "金峰鄉"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9691,
+          22.60848,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": "SDE.垃圾掩埋場位置圖_1041218_Layer.46",
+        "Name": "延平鄉垃圾衛生掩埋場",
+        "資料統計時": "2015\/01\/01-2015\/06\/30",
+        "Planned_Ca": "45143",
+        "Seq": "48",
+        "Remaining_": "14451",
+        "Lon": "121.15631",
+        "County": "臺東縣",
+        "Address": "延平鄉梅山里部落",
+        "Lat": "22.91903",
+        "LandfillNa": "延平鄉垃圾衛生掩埋場",
+        "Township": "延平鄉"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.15631,
+          22.91903,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": "SDE.垃圾掩埋場位置圖_1041218_Layer.47",
+        "Name": "大武鄉垃圾衛生掩埋場",
+        "資料統計時": "2015\/01\/01-2015\/06\/30",
+        "Planned_Ca": "35057",
+        "Seq": "49",
+        "Remaining_": "8699",
+        "Lon": "120.89536",
+        "County": "臺東縣",
+        "Address": "大武鄉大武段1619-2地號",
+        "Lat": "22.35067",
+        "LandfillNa": "大武鄉垃圾衛生掩埋場",
+        "Township": "大武鄉"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.89536,
+          22.35067,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": "SDE.垃圾掩埋場位置圖_1041218_Layer.48",
+        "Name": "長濱鄉垃圾衛生掩埋場",
+        "資料統計時": "2015\/01\/01-2015\/06\/30",
+        "Planned_Ca": "54380",
+        "Seq": "50",
+        "Remaining_": "32261",
+        "Lon": "121.46131",
+        "County": "臺東縣",
+        "Address": "長濱鄉長濱村濱海段2地號",
+        "Lat": "23.32057",
+        "LandfillNa": "長濱鄉垃圾衛生掩埋場",
+        "Township": "長濱鄉"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.46131,
+          23.32057,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": "SDE.垃圾掩埋場位置圖_1041218_Layer.49",
+        "Name": "東河鄉垃圾衛生掩埋場",
+        "資料統計時": "2015\/01\/01-2015\/06\/30",
+        "Planned_Ca": "97100",
+        "Seq": "51",
+        "Remaining_": "3454",
+        "Lon": "121.27634",
+        "County": "臺東縣",
+        "Address": "東河鄉泰源村高原段林地2723-174",
+        "Lat": "23.00512",
+        "LandfillNa": "東河鄉垃圾衛生掩埋場",
+        "Township": "東河鄉"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.27634,
+          23.00512,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": "SDE.垃圾掩埋場位置圖_1041218_Layer.50",
+        "Name": "池上鄉垃圾衛生掩埋場",
+        "資料統計時": "2015\/01\/01-2015\/06\/30",
+        "Planned_Ca": "78500",
+        "Seq": "52",
+        "Remaining_": "26762",
+        "Lon": "121.20051",
+        "County": "臺東縣",
+        "Address": "池上鄉新興村新興1號",
+        "Lat": "23.08902",
+        "LandfillNa": "池上鄉垃圾衛生掩埋場",
+        "Township": "池上鄉"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.20051,
+          23.08902,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": "SDE.垃圾掩埋場位置圖_1041218_Layer.51",
+        "Name": "鹿野鄉垃圾衛生掩埋場",
+        "資料統計時": "2015\/01\/01-2015\/06\/30",
+        "Planned_Ca": "34200",
+        "Seq": "53",
+        "Remaining_": "0",
+        "Lon": "121.14776",
+        "County": "臺東縣",
+        "Address": "鹿野鄉路野段159-33,34,35地號",
+        "Lat": "22.93013",
+        "LandfillNa": "鹿野鄉垃圾衛生掩埋場",
+        "Township": "鹿野鄉"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.14776,
+          22.93013,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": "SDE.垃圾掩埋場位置圖_1041218_Layer.52",
+        "Name": "卑南鄉垃圾衛生掩埋場",
+        "資料統計時": "2015\/01\/01-2015\/06\/30",
+        "Planned_Ca": "105000",
+        "Seq": "54",
+        "Remaining_": "0",
+        "Lon": "121.13235",
+        "County": "臺東縣",
+        "Address": "卑南鄉山里部落34號",
+        "Lat": "22.8545",
+        "LandfillNa": "卑南鄉垃圾衛生掩埋場",
+        "Township": "卑南鄉"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.13235,
+          22.8545,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": "SDE.垃圾掩埋場位置圖_1041218_Layer.53",
+        "Name": "關山鎮區域性垃圾衛生掩埋場",
+        "資料統計時": "2015\/01\/01-2015\/06\/30",
+        "Planned_Ca": "56071",
+        "Seq": "55",
+        "Remaining_": "1322",
+        "Lon": "121.16431",
+        "County": "臺東縣",
+        "Address": "關山都親水段417號",
+        "Lat": "23.02225",
+        "LandfillNa": "關山鎮區域性垃圾衛生掩埋場",
+        "Township": "關山鎮"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.16431,
+          23.02225,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": "SDE.垃圾掩埋場位置圖_1041218_Layer.54",
+        "Name": "成功鎮垃圾衛生掩埋場",
+        "資料統計時": "2015\/01\/01-2015\/06\/30",
+        "Planned_Ca": "352000",
+        "Seq": "56",
+        "Remaining_": "7764",
+        "Lon": "121.33148",
+        "County": "臺東縣",
+        "Address": "成功鎮信義里都歷小段458-13地號",
+        "Lat": "23.02086",
+        "LandfillNa": "成功鎮垃圾衛生掩埋場",
+        "Township": "成功鎮"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.33148,
+          23.02086,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": "SDE.垃圾掩埋場位置圖_1041218_Layer.55",
+        "Name": "臺東市垃圾衛生掩埋場",
+        "資料統計時": "2015\/01\/01-2015\/06\/30",
+        "Planned_Ca": "335309",
+        "Seq": "57",
+        "Remaining_": "32522",
+        "Lon": "121.08544",
+        "County": "臺東縣",
+        "Address": "臺東市知本段3918-2、3919、3920、7367、7368地號等5筆",
+        "Lat": "22.73178",
+        "LandfillNa": "臺東市垃圾衛生掩埋場",
+        "Township": "臺東市"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.08544,
+          22.73178,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": "SDE.垃圾掩埋場位置圖_1041218_Layer.56",
+        "Name": "望安鄉水垵衛生掩埋場",
+        "資料統計時": "2015\/01\/01-2015\/06\/30",
+        "Planned_Ca": "25500",
+        "Seq": "58",
+        "Remaining_": "1762",
+        "Lon": "119.30121",
+        "County": "澎湖縣",
+        "Address": "水垵段507、521地號",
+        "Lat": "23.224908",
+        "LandfillNa": "望安鄉水垵衛生掩埋場",
+        "Township": "望安鄉"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.30121,
+          23.224908,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": "SDE.垃圾掩埋場位置圖_1041218_Layer.57",
+        "Name": "望安鄉將軍衛生掩埋場",
+        "資料統計時": "2015\/01\/01-2015\/06\/30",
+        "Planned_Ca": "28800",
+        "Seq": "59",
+        "Remaining_": "2010",
+        "Lon": "119.315117",
+        "County": "澎湖縣",
+        "Address": "將軍段859地號",
+        "Lat": "23.221513",
+        "LandfillNa": "望安鄉將軍衛生掩埋場",
+        "Township": "望安鄉"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.315117,
+          23.221513,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": "SDE.垃圾掩埋場位置圖_1041218_Layer.58",
+        "Name": "七美鄉西湖垃圾衛生掩埋場",
+        "資料統計時": "2015\/01\/01-2015\/06\/30",
+        "Planned_Ca": "42242",
+        "Seq": "60",
+        "Remaining_": "10912",
+        "Lon": "119.42413",
+        "County": "澎湖縣",
+        "Address": "大嶼段4676-1地號等4筆土地",
+        "Lat": "23.21751",
+        "LandfillNa": "七美鄉西湖垃圾衛生掩埋場",
+        "Township": "七美鄉"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.42413,
+          23.21751,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": "SDE.垃圾掩埋場位置圖_1041218_Layer.59",
+        "Name": "西嶼鄉竹篙灣衛生掩埋場",
+        "資料統計時": "2015\/01\/01-2015\/06\/30",
+        "Planned_Ca": "37300",
+        "Seq": "61",
+        "Remaining_": "12859",
+        "Lon": "119.5055",
+        "County": "澎湖縣",
+        "Address": "西嶼鄉竹灣段2448地號",
+        "Lat": "23.6338",
+        "LandfillNa": "西嶼鄉竹篙灣衛生掩埋場",
+        "Township": "西嶼鄉"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.5055,
+          23.6338,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": "SDE.垃圾掩埋場位置圖_1041218_Layer.60",
+        "Name": "湖西鄉紅羅衛生掩埋場",
+        "資料統計時": "2015\/01\/01-2015\/06\/30",
+        "Planned_Ca": "99020",
+        "Seq": "62",
+        "Remaining_": "33511",
+        "Lon": "119.63358",
+        "County": "澎湖縣",
+        "Address": "湖西鄉紅羅罩段2380-1地號等16筆",
+        "Lat": "23.59464",
+        "LandfillNa": "湖西鄉紅羅衛生掩埋場",
+        "Township": "湖西鄉"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.63358,
+          23.59464,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": "SDE.垃圾掩埋場位置圖_1041218_Layer.61",
+        "Name": "白沙鄉岐頭衛生掩埋場",
+        "資料統計時": "2015\/01\/01-2015\/06\/30",
+        "Planned_Ca": "38000",
+        "Seq": "63",
+        "Remaining_": "2999",
+        "Lon": "119.60593",
+        "County": "澎湖縣",
+        "Address": "白沙鄉岐頭村51-4號",
+        "Lat": "23.65802",
+        "LandfillNa": "白沙鄉岐頭衛生掩埋場",
+        "Township": "白沙鄉"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.60593,
+          23.65802,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": "SDE.垃圾掩埋場位置圖_1041218_Layer.62",
+        "Name": "烈嶼鄉東崗衛生掩埋場",
+        "資料統計時": "2015\/01\/01-2015\/06\/30",
+        "Planned_Ca": "125000",
+        "Seq": "64",
+        "Remaining_": "32400",
+        "Lon": "118.23814",
+        "County": "金門縣",
+        "Address": "烈嶼鄉楊厝1-5號",
+        "Lat": "24.41694",
+        "LandfillNa": "烈嶼鄉東崗衛生掩埋場",
+        "Township": "烈嶼鄉"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.23814,
+          24.41694,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": "SDE.垃圾掩埋場位置圖_1041218_Layer.63",
+        "Name": "金湖鎮新塘衛生掩埋場",
+        "資料統計時": "2015\/01\/01-2015\/06\/30",
+        "Planned_Ca": "194000",
+        "Seq": "65",
+        "Remaining_": "24700",
+        "Lon": "118.448713",
+        "County": "金門縣",
+        "Address": "金湖鎮料羅段152-1號",
+        "Lat": "24.417342",
+        "LandfillNa": "金湖鎮新塘衛生掩埋場",
+        "Township": "金湖鎮"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.448713,
+          24.417342,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": "SDE.垃圾掩埋場位置圖_1041218_Layer.64",
+        "Name": "金城鎮赤山衛生掩埋場",
+        "資料統計時": "2015\/01\/01-2015\/06\/30",
+        "Planned_Ca": "91000",
+        "Seq": "66",
+        "Remaining_": "650",
+        "Lon": "118.32669",
+        "County": "金門縣",
+        "Address": "金城鎮小古崗100號",
+        "Lat": "24.39032",
+        "LandfillNa": "金城鎮赤山衛生掩埋場",
+        "Township": "金城鎮"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.32669,
+          24.39032,
+          0.0
+        ]
+      }
+    }
+]

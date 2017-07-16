@@ -1,0 +1,652 @@
+[
+	{
+	  "type": "Feature",
+	  "properties": {
+		"fid": "1",
+		"Name": "新竹市垃圾資源回收廠",
+		"SITUATION": "使用中",
+		"TEL": "03-5339011",
+		"INCINER_NA": "新竹市焚化廠",
+		"TOWNCODE": "O03",
+		"COOR_X": "241525",
+		"COOR_Y": "2747376",
+		"FID2": null,
+		"ADDRESS": "新竹市南寮海濱路240號",
+		"EPANO": "O1708678",
+		"CY_NAME": "新竹市垃圾資源回收廠"
+	  },
+	  "geometry": {
+		"type": "Point",
+		"coordinates": [
+		  120.916157632606996,
+		  24.833845418523499,
+		  0.0
+		]
+	  }
+	},
+	{
+	  "type": "Feature",
+	  "properties": {
+		"fid": "2",
+		"Name": "苗栗縣垃圾資源回收廠",
+		"SITUATION": "使用中",
+		"TEL": null,
+		"INCINER_NA": "苗栗縣焚化廠",
+		"TOWNCODE": "K09",
+		"COOR_X": "233391",
+		"COOR_Y": "2729605",
+		"FID2": null,
+		"ADDRESS": null,
+		"EPANO": "K7107366",
+		"CY_NAME": "苗栗縣垃圾資源回收廠"
+	  },
+	  "geometry": {
+		"type": "Point",
+		"coordinates": [
+		  120.835894557239996,
+		  24.673323466495798,
+		  0.0
+		]
+	  }
+	},
+	{
+	  "type": "Feature",
+	  "properties": {
+		"fid": "3",
+		"Name": "台中縣烏日垃圾資源回收廠",
+		"SITUATION": "使用中",
+		"TEL": null,
+		"INCINER_NA": "台中縣烏日焚化廠",
+		"TOWNCODE": "L15",
+		"COOR_X": "211267",
+		"COOR_Y": "2665833",
+		"FID2": null,
+		"ADDRESS": null,
+		"EPANO": null,
+		"CY_NAME": "台中縣烏日垃圾資源回收廠"
+	  },
+	  "geometry": {
+		"type": "Point",
+		"coordinates": [
+		  120.619017982648003,
+		  24.097137215525901,
+		  0.0
+		]
+	  }
+	},
+	{
+	  "type": "Feature",
+	  "properties": {
+		"fid": "4",
+		"Name": "台北市內湖垃圾資源回收廠",
+		"SITUATION": "使用中",
+		"TEL": "02-27961833",
+		"INCINER_NA": "台北市內湖焚化廠",
+		"TOWNCODE": "A14",
+		"COOR_X": "311086",
+		"COOR_Y": "2772909",
+		"FID2": null,
+		"ADDRESS": "台北市葫洲里安康路29號",
+		"EPANO": "A4200130",
+		"CY_NAME": "台北市內湖垃圾資源回收廠"
+	  },
+	  "geometry": {
+		"type": "Point",
+		"coordinates": [
+		  121.605477129587996,
+		  25.063158172219399,
+		  0.0
+		]
+	  }
+	},
+	{
+	  "type": "Feature",
+	  "properties": {
+		"fid": "5",
+		"Name": "台北市木柵垃圾資源回收廠",
+		"SITUATION": "使用中",
+		"TEL": "02-22300800",
+		"INCINER_NA": "台北市木柵焚化廠",
+		"TOWNCODE": "A11",
+		"COOR_X": "309308",
+		"COOR_Y": "2766464",
+		"FID2": null,
+		"ADDRESS": "台北市木柵路五段53號",
+		"EPANO": "A4000283",
+		"CY_NAME": "台北市木柵垃圾資源回收廠"
+	  },
+	  "geometry": {
+		"type": "Point",
+		"coordinates": [
+		  121.587578550678003,
+		  25.0050380758382,
+		  0.0
+		]
+	  }
+	},
+	{
+	  "type": "Feature",
+	  "properties": {
+		"fid": "6",
+		"Name": "台北市北投垃圾資源回收廠",
+		"SITUATION": "使用中",
+		"TEL": "02-28360050",
+		"INCINER_NA": "台北市北投焚化廠",
+		"TOWNCODE": "A16",
+		"COOR_X": "300360",
+		"COOR_Y": "2777833",
+		"FID2": null,
+		"ADDRESS": "台北市洲美街271號",
+		"EPANO": "A4400916",
+		"CY_NAME": "台北市北投垃圾資源回收廠"
+	  },
+	  "geometry": {
+		"type": "Point",
+		"coordinates": [
+		  121.499346413891004,
+		  25.108008455792099,
+		  0.0
+		]
+	  }
+	},
+	{
+	  "type": "Feature",
+	  "properties": {
+		"fid": "7",
+		"Name": "台北縣樹林垃圾資源回收廠",
+		"SITUATION": "使用中",
+		"TEL": "02-26808217",
+		"INCINER_NA": "台北縣樹林焚化廠",
+		"TOWNCODE": "F17",
+		"COOR_X": "288400",
+		"COOR_Y": "2762162",
+		"FID2": null,
+		"ADDRESS": "台北縣樹林鎮中摻路三段212號",
+		"EPANO": "F0703948",
+		"CY_NAME": "台北縣樹林垃圾資源回收廠"
+	  },
+	  "geometry": {
+		"type": "Point",
+		"coordinates": [
+		  121.380320602935001,
+		  24.966875848380301,
+		  0.0
+		]
+	  }
+	},
+	{
+	  "type": "Feature",
+	  "properties": {
+		"fid": "8",
+		"Name": "台北縣八里垃圾資源回收廠",
+		"SITUATION": "使用中",
+		"TEL": "02-26195111",
+		"INCINER_NA": "台北縣八里焚化廠",
+		"TOWNCODE": "F02",
+		"COOR_X": "286999",
+		"COOR_Y": "2780697",
+		"FID2": null,
+		"ADDRESS": "台北縣八里鄉下罟仔村65號",
+		"EPANO": "F2300972",
+		"CY_NAME": "台北縣八里垃圾資源回收廠"
+	  },
+	  "geometry": {
+		"type": "Point",
+		"coordinates": [
+		  121.366946041760002,
+		  25.134249057793099,
+		  0.0
+		]
+	  }
+	},
+	{
+	  "type": "Feature",
+	  "properties": {
+		"fid": "9",
+		"Name": "桃園縣垃圾資源回收廠",
+		"SITUATION": "使用中",
+		"TEL": "03-4511111",
+		"INCINER_NA": "桃園縣焚化廠",
+		"TOWNCODE": "H03",
+		"COOR_X": "275218",
+		"COOR_Y": "2764940",
+		"FID2": null,
+		"ADDRESS": "桃園縣中壢市中壢工業區松江北路16號",
+		"EPANO": "H4307715",
+		"CY_NAME": "桃園縣垃圾資源回收廠"
+	  },
+	  "geometry": {
+		"type": "Point",
+		"coordinates": [
+		  121.249822102121001,
+		  24.9922304317219,
+		  0.0
+		]
+	  }
+	},
+	{
+	  "type": "Feature",
+	  "properties": {
+		"fid": "10",
+		"Name": "台南市城西垃圾資源回收廠",
+		"SITUATION": "使用中",
+		"TEL": "06-2570313",
+		"INCINER_NA": "台南市城西焚化廠",
+		"TOWNCODE": "D06",
+		"COOR_X": "155161",
+		"COOR_Y": "2549628",
+		"FID2": null,
+		"ADDRESS": "台南市城西里城西街三段1070-10號",
+		"EPANO": "D3202577",
+		"CY_NAME": "台南市城西垃圾資源回收廠"
+	  },
+	  "geometry": {
+		"type": "Point",
+		"coordinates": [
+		  120.074570422256002,
+		  23.045560561162599,
+		  0.0
+		]
+	  }
+	},
+	{
+	  "type": "Feature",
+	  "properties": {
+		"fid": "11",
+		"Name": "嘉義縣鹿草垃圾資源回收廠",
+		"SITUATION": "使用中",
+		"TEL": "05-3621101",
+		"INCINER_NA": "嘉義縣鹿草焚化廠",
+		"TOWNCODE": "Q11",
+		"COOR_X": "176388",
+		"COOR_Y": "2594189",
+		"FID2": null,
+		"ADDRESS": "嘉義縣鹿草鄉馬稠後農場60號",
+		"EPANO": "Q7504056",
+		"CY_NAME": "嘉義縣鹿草垃圾資源回收廠"
+	  },
+	  "geometry": {
+		"type": "Point",
+		"coordinates": [
+		  120.279531299406003,
+		  23.449018841219999,
+		  0.0
+		]
+	  }
+	},
+	{
+	  "type": "Feature",
+	  "properties": {
+		"fid": "12",
+		"Name": "高雄市南區垃圾資源回收廠",
+		"SITUATION": "使用中",
+		"TEL": "07-8069750",
+		"INCINER_NA": "高雄市南區焚化廠",
+		"TOWNCODE": "E11",
+		"COOR_X": "185983",
+		"COOR_Y": "2494446",
+		"FID2": null,
+		"ADDRESS": "高雄市北林路6號",
+		"EPANO": "E5602998",
+		"CY_NAME": "高雄市南區垃圾資源回收廠"
+	  },
+	  "geometry": {
+		"type": "Point",
+		"coordinates": [
+		  120.377587010303998,
+		  22.5487254215912,
+		  0.0
+		]
+	  }
+	},
+	{
+	  "type": "Feature",
+	  "properties": {
+		"fid": "13",
+		"Name": "台中縣后里垃圾資源回收廠",
+		"SITUATION": "使用中",
+		"TEL": "04-5577450",
+		"INCINER_NA": "台中縣后里焚化廠",
+		"TOWNCODE": "L08",
+		"COOR_X": "219276",
+		"COOR_Y": "2686917",
+		"FID2": null,
+		"ADDRESS": "台中縣后里鄉舊社村枋寮路7-9號",
+		"EPANO": null,
+		"CY_NAME": "台中縣后里垃圾資源回收廠"
+	  },
+	  "geometry": {
+		"type": "Point",
+		"coordinates": [
+		  120.697347833758997,
+		  24.287687817805299,
+		  0.0
+		]
+	  }
+	},
+	{
+	  "type": "Feature",
+	  "properties": {
+		"fid": "14",
+		"Name": "台中市垃圾資源回收廠",
+		"SITUATION": "使用中",
+		"TEL": "04-3815856",
+		"INCINER_NA": "台中市焚化廠",
+		"TOWNCODE": "B07",
+		"COOR_X": "209162",
+		"COOR_Y": "2671997",
+		"FID2": null,
+		"ADDRESS": "台中市文山南巷500號",
+		"EPANO": "B2402442",
+		"CY_NAME": "台中市垃圾資源回收廠"
+	  },
+	  "geometry": {
+		"type": "Point",
+		"coordinates": [
+		  120.598142318325998,
+		  24.152744180101799,
+		  0.0
+		]
+	  }
+	},
+	{
+	  "type": "Feature",
+	  "properties": {
+		"fid": "15",
+		"Name": "高雄縣岡山垃圾資源回收廠",
+		"SITUATION": "使用中",
+		"TEL": "07-6241168",
+		"INCINER_NA": "高雄縣岡山焚化廠",
+		"TOWNCODE": "S09",
+		"COOR_X": "175093",
+		"COOR_Y": "2523526",
+		"FID2": null,
+		"ADDRESS": "高雄縣岡山鎮本洲里本工五路9號",
+		"EPANO": "S1602755",
+		"CY_NAME": "高雄縣岡山垃圾資源回收廠"
+	  },
+	  "geometry": {
+		"type": "Point",
+		"coordinates": [
+		  120.270316194192006,
+		  22.810881904121,
+		  0.0
+		]
+	  }
+	},
+	{
+	  "type": "Feature",
+	  "properties": {
+		"fid": "16",
+		"Name": "彰化縣溪洲垃圾資源回收廠",
+		"SITUATION": "使用中",
+		"TEL": "04-8899417",
+		"INCINER_NA": "彰化縣溪洲焚化廠",
+		"TOWNCODE": "N26",
+		"COOR_X": "195008",
+		"COOR_Y": "2635896",
+		"FID2": null,
+		"ADDRESS": "彰化縣溪洲鄉彰水路一段臨1號",
+		"EPANO": "N3201030",
+		"CY_NAME": "彰化縣溪洲垃圾資源回收廠"
+	  },
+	  "geometry": {
+		"type": "Point",
+		"coordinates": [
+		  120.460227666858998,
+		  23.826346481427699,
+		  0.0
+		]
+	  }
+	},
+	{
+	  "type": "Feature",
+	  "properties": {
+		"fid": "17",
+		"Name": "高雄市中區垃圾資源回收廠",
+		"SITUATION": "使用中",
+		"TEL": "07-3909400",
+		"INCINER_NA": "高雄市中區焚化廠",
+		"TOWNCODE": "E05",
+		"COOR_X": "181294",
+		"COOR_Y": "2507400",
+		"FID2": null,
+		"ADDRESS": "高雄市鼎金一巷22號",
+		"EPANO": "E5002890",
+		"CY_NAME": "高雄市中區垃圾資源回收廠"
+	  },
+	  "geometry": {
+		"type": "Point",
+		"coordinates": [
+		  120.331425392943004,
+		  22.665516870219101,
+		  0.0
+		]
+	  }
+	},
+	{
+	  "type": "Feature",
+	  "properties": {
+		"fid": "18",
+		"Name": "高雄縣仁武垃圾資源回收廠",
+		"SITUATION": "使用中",
+		"TEL": null,
+		"INCINER_NA": "高雄縣仁武焚化廠",
+		"TOWNCODE": "S03",
+		"COOR_X": "185076",
+		"COOR_Y": "2511130",
+		"FID2": null,
+		"ADDRESS": null,
+		"EPANO": "S2202553",
+		"CY_NAME": "高雄縣仁武垃圾資源回收廠"
+	  },
+	  "geometry": {
+		"type": "Point",
+		"coordinates": [
+		  120.368076706043993,
+		  22.699356857115099,
+		  0.0
+		]
+	  }
+	},
+	{
+	  "type": "Feature",
+	  "properties": {
+		"fid": "19",
+		"Name": "嘉義市垃圾資源回收廠",
+		"SITUATION": "使用中",
+		"TEL": "05-2251775",
+		"INCINER_NA": "嘉義市焚化廠",
+		"TOWNCODE": "I02",
+		"COOR_X": "192930",
+		"COOR_Y": "2593577",
+		"FID2": null,
+		"ADDRESS": "嘉義市湖仔內巷741號",
+		"EPANO": "I2604550",
+		"CY_NAME": "嘉義市垃圾資源回收廠"
+	  },
+	  "geometry": {
+		"type": "Point",
+		"coordinates": [
+		  120.441452364539998,
+		  23.444156205213101,
+		  0.0
+		]
+	  }
+	},
+	{
+	  "type": "Feature",
+	  "properties": {
+		"fid": "20",
+		"Name": "雲林縣林內垃圾資源回收廠",
+		"SITUATION": "施工中",
+		"TEL": null,
+		"INCINER_NA": "雲林縣林內焚化廠1",
+		"TOWNCODE": "P10",
+		"COOR_X": "209511",
+		"COOR_Y": "2630649",
+		"FID2": null,
+		"ADDRESS": null,
+		"EPANO": null,
+		"CY_NAME": "雲林縣林內垃圾資源回收廠"
+	  },
+	  "geometry": {
+		"type": "Point",
+		"coordinates": [
+		  120.602719617280997,
+		  23.779398208860901,
+		  0.0
+		]
+	  }
+	},
+	{
+	  "type": "Feature",
+	  "properties": {
+		"fid": "21",
+		"Name": "宜蘭縣利澤垃圾資源回收廠",
+		"SITUATION": "使用中",
+		"TEL": null,
+		"INCINER_NA": "宜蘭縣利澤廠焚化廠",
+		"TOWNCODE": "G07",
+		"COOR_X": "334595",
+		"COOR_Y": "2728502",
+		"FID2": null,
+		"ADDRESS": null,
+		"EPANO": "G3801239",
+		"CY_NAME": "宜蘭縣利澤垃圾資源回收廠"
+	  },
+	  "geometry": {
+		"type": "Point",
+		"coordinates": [
+		  121.835779096504993,
+		  24.6611330428148,
+		  0.0
+		]
+	  }
+	},
+	{
+	  "type": "Feature",
+	  "properties": {
+		"fid": "22",
+		"Name": "雲林縣林內垃圾資源回收廠",
+		"SITUATION": "施工中",
+		"TEL": null,
+		"INCINER_NA": "雲林縣林內焚化廠2",
+		"TOWNCODE": "P10",
+		"COOR_X": "209511",
+		"COOR_Y": "2630646",
+		"FID2": null,
+		"ADDRESS": null,
+		"EPANO": null,
+		"CY_NAME": "雲林縣林內垃圾資源回收廠"
+	  },
+	  "geometry": {
+		"type": "Point",
+		"coordinates": [
+		  120.602724987363999,
+		  23.779375287266198,
+		  0.0
+		]
+	  }
+	},
+	{
+	  "type": "Feature",
+	  "properties": {
+		"fid": "23",
+		"Name": "屏東縣崁頂垃圾資源回收廠",
+		"SITUATION": "使用中",
+		"TEL": "08-7351923",
+		"INCINER_NA": "屏東縣崁頂焚化廠",
+		"TOWNCODE": "T18",
+		"COOR_X": "198401",
+		"COOR_Y": "2488979",
+		"FID2": null,
+		"ADDRESS": "屏東縣崁頂鄉中正路881號",
+		"EPANO": "T5900246",
+		"CY_NAME": "屏東縣崁頂垃圾資源回收廠"
+	  },
+	  "geometry": {
+		"type": "Point",
+		"coordinates": [
+		  120.498490826714004,
+		  22.499769696653001,
+		  0.0
+		]
+	  }
+	},
+	{
+	  "type": "Feature",
+	  "properties": {
+		"fid": "24",
+		"Name": "基隆市垃圾資源回收廠",
+		"SITUATION": "使用中",
+		"TEL": null,
+		"INCINER_NA": "基隆市焚化廠",
+		"TOWNCODE": "C07",
+		"COOR_X": "328281",
+		"COOR_Y": "2779569",
+		"FID2": null,
+		"ADDRESS": null,
+		"EPANO": "C1600321",
+		"CY_NAME": "基隆市垃圾資源回收廠"
+	  },
+	  "geometry": {
+		"type": "Point",
+		"coordinates": [
+		  121.776276472367996,
+		  25.122482140072499,
+		  0.0
+		]
+	  }
+	},
+	{
+	  "type": "Feature",
+	  "properties": {
+		"fid": "25",
+		"Name": "台南縣永康垃圾資源回收廠",
+		"SITUATION": "使用中",
+		"TEL": null,
+		"INCINER_NA": "台南縣永康焚化廠",
+		"TOWNCODE": "R18",
+		"COOR_X": "176504",
+		"COOR_Y": "2548937",
+		"FID2": null,
+		"ADDRESS": null,
+		"EPANO": "R1407702",
+		"CY_NAME": "台南縣永康垃圾資源回收廠"
+	  },
+	  "geometry": {
+		"type": "Point",
+		"coordinates": [
+		  120.282852943381002,
+		  23.040404231676199,
+		  0.0
+		]
+	  }
+	},
+	{
+	  "type": "Feature",
+	  "properties": {
+		"fid": "26",
+		"Name": "台東縣垃圾資源回收廠",
+		"SITUATION": "施工中",
+		"TEL": null,
+		"INCINER_NA": "台東縣焚化廠",
+		"TOWNCODE": "V01",
+		"COOR_X": "263953",
+		"COOR_Y": "2514522",
+		"FID2": null,
+		"ADDRESS": null,
+		"EPANO": "V7506199",
+		"CY_NAME": "台東縣垃圾資源回收廠"
+	  },
+	  "geometry": {
+		"type": "Point",
+		"coordinates": [
+		  121.135851056929994,
+		  22.731175581446799,
+		  0.0
+		]
+	  }
+	}
+]

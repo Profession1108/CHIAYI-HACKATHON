@@ -1,0 +1,1 @@
+<img src="images/logo.gif" alt="海洋大學資工系Youbike系統" border="0"/>

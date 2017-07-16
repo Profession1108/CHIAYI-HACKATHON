@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
+		<title>空氣監控小尖兵</title>
+		<link rel="stylesheet" href="css/style.css">
+		<!--[if lt IE 9]>
+		<script src="js/ie-support/html5.js"></script>
+		<script src="js/ie-support/respond.js"></script>
+		<![endif]-->
+		
+		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCfU3lA88R45G_p3OLnzA5xYxos-blGCww&libraries=places&callback=initialize" type="text/javascript"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.1.1.min.js"></script>
+			
+		<%
+			request.setCharacterEncoding("UTF-8");
+		%>
+		
+		<script>	
+			function handleNoGeolocation(errorFlag) {
+			    if (errorFlag == true) {
+			      alert("地圖定位失敗");
+			    } else {
+			      alert("您的瀏覽器不支援定位服務");
+			    }
+				initialLocation = taipei;
+			    map.setCenter(initialLocation);  
+			}
+		
+			function initialize() {		
+				var directionsService = new google.maps.DirectionsService;  
+				var directionsDisplay = new google.maps.DirectionsRenderer;
+	
+		        if(navigator.geolocation) {
+		          browserSupportFlag = true;
+		          navigator.geolocation.getCurrentPosition(function(position) {          	            
+		            alert(position.coords.latitude + " " + position.coords.longitude);
+		            
+		            $.ajax({
+		            	type: "POST",
+		            	url: "ep/AQXSite.jsp", 
+		            	data: {             	
+		             		positionlatitude:  position.coords.latitude,
+		             		positionlongitude: position.coords.longitude
+		             	},
+		            	success: function(response){     
+		           		  alert(response);       		  
+		           		  var obj = JSON.parse(response);
+		           		  
+		           		  for(var i=0; i < obj.length ; i++){
+		           			 if(i == 0){
+		           			 /* var template = 
+		           				 "測站名稱: " + obj[i].SiteName
+		           				+"</br>空氣汙染指標物: " + obj[i].MajorPollutant
+		           				+"</br>狀態: " + obj[i].Status
+		           				+"</br>SO2: " + obj[i].SO2
+		           				+"</br>CO: " + obj[i].CO
+		           				+"</br>O3: " + obj[i].O3
+		           				+"</br>PM10: " + obj[i].PM10
+		           				+"</br>PM2.5: " + obj[i].PM2d5
+		           				+"</br>NO2: " + obj[i].NO2
+		           				+"</br>NOx: " + obj[i].NOx
+		           				+"</br>NO: " + obj[i].NO
+		           				+"</br>細懸浮微粒指標 : " + obj[i].FPMI
+		           				+"</br>空氣污染指標: " + obj[i].PSI
+		           				+"</br>資料更新時間: " + obj[i].PublishTime; */
+		           			 
+		           			 var template = "";		           		
+		           				
+		           			 $(".container1").html("<div>附近觀測站: " + obj[i].SiteName + "。</div><div>更新時間: " + obj[i].PublishTime + "</div>");
+		           				
+		           			if(obj[i].PSI <= 50){
+		           				template += 
+		           					"對健康的影響: 良好。"
+		           				   +"</br>請民眾戴一般用口罩或活性碳口罩。";   				   
+		           			 }else if(obj[i].PSI <= 100 && obj[i].PSI > 50){
+		           				template += 
+		           					"對健康的影響: 普通。"
+		           				   +"</br>請民眾戴醫療用口罩。";   
+		           			 }else if(obj[i].PSI <= 199 && obj[i].PSI > 101){
+		           				template += 
+		           					"對健康的影響: 不良。";
+		           				   +"</br>請民眾戴N95口罩或其以上。";   
+		           			 }else if(obj[i].PSI <= 299 && obj[i].PSI > 200){
+			           				template += 
+			           				"對健康的影響: 非常不良。"
+			           			   +"</br>請民眾盡量不要出門或待在室內。"; 
+			           		 }else if(obj[i].PSI > 300){
+		           				template += 
+		           					"對健康的影響: 有害。";
+		           				   +"</br>請民眾盡量不要出門或待在室內。"; 
+		           			 }	 
+		           			
+		           			 template += "</br>";
+		           				
+		           			 if(obj[i].FPMI <= 35){
+		           				template += 
+		           					"一般民眾: 正常戶外活動。"
+		           				   +"</br>敏感性族群: 正常戶外活動。";
+		           			 }else if(obj[i].FPMI <= 53 && obj[i].FPMI > 35){
+		           				template += 
+		           					"一般民眾: 正常戶外活動。"
+		           				   +"</br>敏感性族群: 有心臟、呼吸道及心血管疾病的成人與孩童感受到癥狀時，應考慮減少體力消耗，特別是減少戶外活動。";
+		           			 }else if(obj[i].FPMI <= 70 && obj[i].FPMI > 53){
+		           				template += 
+		           					"一般民眾: 任何人如果有不適，如眼痛，咳嗽或喉嚨痛等，應該考慮減少戶外活動。"
+		           				   +"</br>敏感性族群: "
+		           				   +"</br>1. 有心臟、呼吸道及心血管疾病的成人與孩童，應減少體力消耗，特別是減少戶外活動。"
+		           				   +"</br>2. 老年人應減少體力消耗。" 
+		           				   +"</br>3. 具有氣喘的人可能需增加使用吸入劑的頻率。";
+		           			 }else if(obj[i].FPMI > 70){
+		           				template += 
+		           					"一般民眾: 任何人如果有不適，如眼痛，咳嗽或喉嚨痛等，應減少體力消耗，特別是減少戶外活動。"
+		           				   +"</br>敏感性族群: "
+		           				   +"</br>1. 有心臟、呼吸道及心血管疾病的成人與孩童，以及老年人應避免體力消耗，特別是避免戶外活動。"
+		           				   +"</br>2. 具有氣喘的人可能需增加使用吸入劑的頻率。";
+		           			 }	       
+		           			 
+		           			template += 
+		           				 "</br>測站名稱: " + obj[i].SiteName
+		           				+"</br>空氣汙染指標物: " + obj[i].MajorPollutant
+		           				+"</br>SO2: " + obj[i].SO2
+		           				+"</br>CO: " + obj[i].CO
+		           				+"</br>O3: " + obj[i].O3
+		           				+"</br>PM10: " + obj[i].PM10
+		           				+"</br>PM2.5: " + obj[i].PM2d5
+		           				+"</br>NO2: " + obj[i].NO2
+		           				+"</br>NOx: " + obj[i].NOx
+		           				+"</br>NO: " + obj[i].NO
+		           				+"</br>細懸浮微粒指標 : " + obj[i].FPMI
+		           				+"</br>空氣污染指標: " + obj[i].PSI
+		           				+"</br>資料更新時間: " + obj[i].PublishTime
+		           				+"</br>離我最近的可能汙染源: </br>" + obj[i].Name + "距離: " + obj[i].distance;
+		           			 }else{
+		           				template += 
+		           				"</br>" + obj[i].Name + "距離: " + obj[i].distance;
+		           			 }	           			  
+		           		  }		           		  
+		           		 
+		                },
+		                error: function(xhr, ajaxOptions, thrownError)
+		                { 
+		                  alert(xhr.status); 
+		                  alert(thrownError.Error); 
+		                }
+		            });
+		            
+		          }, function() {
+		            handleNoGeolocation(browserSupportFlag);
+		          });
+		        }
+		        else {
+		          browserSupportFlag = false;
+		          handleNoGeolocation(browserSupportFlag);
+		        }     	       
+		    }
+		
+		    google.maps.event.addDomListener(window, 'load', initialize);
+		</script>
+	</head>
+	<body>
+		<div class="site-content">
+			<div class="site-header">
+				<div class="container">
+					<a href="index.html" class="branding">
+						<img src="images/logo.png" alt="" class="logo">
+						<div class="logo-type">
+							<h1 class="site-title">空氣監控小尖兵</h1>
+							<small class="site-description">Make It Possible,MIP</small>
+						</div>
+					</a>
+					<div class="main-navigation">
+						<button type="button" class="menu-toggle"><i class="fa fa-bars"></i></button>
+						<ul class="menu">
+							<li class="menu-item current-menu-item"><a href="index.html">我的空氣品質</a></li>
+							<li class="menu-item"><a href="index.html">汙染監控小幫手</a></li>
+						</ul>
+					</div>
+					<div class="mobile-navigation"></div>
+				</div>
+			</div>
+			<div class="hero" data-bg-image="images/Chiayi.jpg">
+				<div class="hero_cover">
+				<div class="container1">
+					<div>附近觀測站: 朴子。</div>
+					<div>更新時間: 2017-07-16 11:00</div>
+				</div>
+				</div>
+			</div>
+			<div class="forecast-table">
+				<div class="container">
+					<div class="forecast-container">
+						<div class="today forecast">
+							<div class="forecast-header">
+								<div class="day">目前空氣品質</div>
+							</div>
+							<div class="forecast-content">
+								<div class="location">對健康的影響</div>
+								<div class="degree">
+									<div class="num">普通(52)</div>
+								</div>
+								<div>建議配戴口罩類型：醫療用口罩。</div>
+								<div>一般民眾: 正常戶外活動。</div>
+								<div>敏感性族群: 正常戶外活動。</div>
+								<div>空氣汙染指標物: 臭氧</div>
+
+							</div>
+						</div>
+						<div class="forecast">
+							<div class="forecast-header">
+								<div class="day">PM<br/>2.5</div>
+							</div>
+							<div class="forecast-content">
+								<div class="degree">21</div>
+								<small>普通</small>
+							</div>
+						</div>
+						<div class="forecast">
+							<div class="forecast-header">
+								<div class="day">PM<br/>10</div>
+							</div> <!-- .forecast-header -->
+							<div class="forecast-content">
+								<div class="degree">53</div>
+								<small>普通</small>
+							</div>
+						</div>
+						<div class="forecast">
+							<div class="forecast-header">
+								<div class="day">一氧<br/>化碳</div>
+							</div> <!-- .forecast-header -->
+							<div class="forecast-content">
+								<div class="degree">0.3</div>
+								<small>普通</small>
+							</div>
+						</div>
+						<div class="forecast">
+							<div class="forecast-header">
+								<div class="day">硫氧<br/>化物</div>
+							</div> <!-- .forecast-header -->
+							<div class="forecast-content">
+								<div class="degree">5.7</div>
+								<small>普通</small>
+							</div>
+						</div>
+						<div class="forecast">
+							<div class="forecast-header">
+								<div class="day">氮氧<br/>化物</div>
+							</div> <!-- .forecast-header -->
+							<div class="forecast-content">
+								<div class="degree">8.8</div>
+								<small>普通</small>
+							</div>
+						</div>
+						<div class="forecast">
+							<div class="forecast-header">
+								<div class="day">臭氧<br/>&nbsp;</div>
+							</div> <!-- .forecast-header -->
+							<div class="forecast-content">
+								<div class="degree">63</div>
+								<small>普通</small>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+							<div class="content col-md-12">
+								<div class="post">
+									<h2 class="entry-title">距離我最近的可能汙染</h2>
+									<div class="button">焚化爐 5KM</div><hr/>
+									<div class="button">垃圾掩埋場 10KM</div><hr/>
+									<div class="button">XX工廠 15KM</div><hr/>
+									<div class="button">焚化爐 20KM</div><hr/>
+									<div class="button">焚化爐 25KM</div><hr/>
+								</div>			
+							</div>
+					</div>
+				</div>
+			</div>
+			<main class="main-content">
+				<div class="fullwidth-block" data-bg-color="#262936">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-4">
+								<div class="news">
+									<div class="date">硫氧化物</div>
+									<h3><a href="#">SO2</a></h3>
+									<p>二氧化硫自工廠煙囪及柴油車尾氣排放後，在大氣中可轉化酸性氣膠，雨天隨雨水降下，即是酸雨。
+二氧化硫對人體之作用主要以刺激呼吸系統為主，會產生鼻咽炎、咳嗽、呼吸短促、氣 管炎、肺炎等。硫酸氣態膠亦可能造成鼻咽癌。
+</p>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="news">
+									<div class="date">氮氧化物</div>
+									<h3><a href="#">NO2、NO、NOx</a></h3>
+									<p>為刺激性之紅棕色氣體，易對 人體眼睛及呼吸系統產生刺激，造成過敏、氣管炎、肺炎、肺充血及肺水腫。二氧化氮在大 氣中若經光合作用和碳氫化合物反應產生臭氧(O3)、過氧硝酸乙醯酯（PAN）或硝酸，則對 健康之負面影響更嚴重。</p>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="news">
+									<div class="date">臭氧</div>
+									<h3><a href="#">O3</a></h3>
+									<p>臭氧具有令人厭惡之氣味，為強氧化劑。空氣中之臭氧可使人之嘴、鼻、喉、眼粘液膜 乾燥，造成視覺遲鈍、頭痛、肺充血、肺水踵之症狀，在臭氧濃度 50ppm 下曝露 1 小時，會 造成死亡。我們生活空間中之臭氧主要為碳氫化合物及氮氧化物經光化學反應產生，對人體健康及 生態環境有不良影響。而離地面十五至三十公里中之臭氧層，可隔絕大部分之紫外線，使人 類及其他生物受到紫外線之危害減到最低，因此，臭氧對人類之影響，可說是有危害也有益處。</p>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+						<div class="col-md-12">
+								<div class="news">
+									<div class="date">粒狀污染</div>
+									<h3><a href="#">PM2.5、PM10</a></h3>
+									<p>一般而言，大於 10m 之粒狀空氣污染物容易為人體之 鼻腔之鼻毛、黏膜及彎道所攔截，較不易進入氣管深處或肺部，但容易進入喉嚨隨口水或食 物進入食道或胃部。而介於 2.5~10m 之間之粒狀物，進入上呼吸道，部分可由氣管之纖毛 運動，藉由痰的方式排出。而小於 2.5m 之粒狀空氣污染物，則很容易長趨直入深入至下呼 吸道至肺泡深處。這些小於 2.5m 之粒狀物，常含有高量之重金屬，如：Pb、Cd、Cu、Cr、 Zn、Ni、V、Cr 等及酸性氣膠，這些重金屬及酸性氣膠經由溶解在肺部之血液中，傳輸至人 體各處，傷害腦部細胞、神經系統、肝臟及腎臟；這些小於 2.5m 之粒狀物，亦含有高量之 致癌性有機物，如：多環芳香烴化合物(PAHs)及戴奧辛(PCDDs／PCDFs)等，容易使得肺部 細胞產生病變，甚至致癌。</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</main> <!-- .main-content -->
+			<footer class="site-footer">
+				<div class="container">
+					<p class="colophon">Copyright 2014 MIT. Designed by Themezy. All rights reserved</p>
+				</div>
+			</footer> <!-- .site-footer -->
+		</div>
+		<script src="js/jquery-1.11.1.min.js"></script>
+		<script src="js/plugins.js"></script>
+		<script src="js/app.js"></script>
+	</body>
+</html>

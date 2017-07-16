@@ -1,0 +1,134 @@
+body {
+ 	margin: 0;
+}
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  text-decoration: underline;
+}
+
+.list_a:hover, .list_b:hover {
+    background-color: #ccf26c;
+    color: #fff;
+}
+.list_b {
+  background-color: #fff;
+  color: #000;
+}
+.list_a {
+  background-color: #e4f2c3;
+  color: #000;
+}
+
+#outerbackground {
+  	font-family: "微軟正黑體", Arial;
+    font-size: 19px;
+    font-weight: bolder;
+    text-decoration: none;
+  	width: 1024px;
+  	height: 768px;
+  	margin:0px auto; //IE8後
+  	*margin:0px auto; //IE7
+  	_margin:0px auto; //IE6
+  }
+  
+#top {
+  width: 1024px;
+  word-break: break-all;
+}
+#logo {
+float: left;
+  width: 200px;
+  height: inherit;   
+}
+#title {
+	float: right;
+	width: 824px;
+	background-color: #535353;
+  color: white;
+  height: 59px;
+  line-height: 59px;
+}
+
+#middle {
+  width: 1024px;
+  height: 568px;
+  word-break: break-all;
+}
+#menu {
+  float: left;
+  width: 200px;
+  height: inherit;
+   vertical-align: middle;
+}
+.menu_list {
+	width: inherit;
+  height: calc(97%/6);
+  text-align: center;
+  line-height: 94px;
+  border-bottom-style: groove;
+  margin: 0 auto;    
+  *margin:0px auto; //IE7
+	_margin:0px auto; //IE6
+}
+#content {
+  float: left;
+  width: 824px;
+  height: inherit;
+}
+.content_fontsize {
+	font-size: 16px;  	  
+}
+#content_title {
+  float: left;
+  width: 760px;
+	height: inherit;
+  font-size: 24px;
+}
+#share {
+  float: right;
+  width: 64px;
+  height: inherit;
+  font-weight: normal;
+  font-size: small;
+  background-color: #3b5998;
+  text-align: center; 
+}
+
+#bottom {
+  width: 944px;
+  word-break: break-all;
+  font-weight: normal;
+  font-size: medium;
+  background: #eaeaea;
+  padding-top: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 10px; 
+  font-weight:normal;    
+}
+
+.menu_list a {
+	    color: rgb(82, 81, 75);
+	    font-family: 微軟正黑體;
+	    text-shadow: 0px 1px 5px #FFEB3B;
+	    font-weight: 100;
+}
+.menu_list {
+   background-color: rgb(255, 215, 0);
+   height: 60px;
+   border-bottom-color: rgba(255, 231, 131, 0.82);
+   border-bottom-style: dashed;
+   line-height: 60px;
+   width: 200px;
+}
+
+#map-canvas { height: 500px; margin: 0; padding: 0;}

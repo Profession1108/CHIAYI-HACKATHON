@@ -1,0 +1,1 @@
+國立臺灣海洋大學資訊工程學系 <br/>地址:基隆市中正區北寧路s2號 | TEL:(02)2462-2192#6601 | E-mail:10557022@mail.ntou.edu.tw <br/> Copyright 2016 All Rights Reserved.
